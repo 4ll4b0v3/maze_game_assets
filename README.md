@@ -1,2 +1,2 @@
-# maze_game_assets
+Asset repo for https://glad-robin.infinityfree.me/maze
 
