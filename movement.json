@@ -1,0 +1,28 @@
+{
+  "default": "source",
+  "versions": {
+    "source": {
+      "name": "Source 2004",
+      "mv": {
+        "gravity": 600,
+        "accelerate": 10,
+        "airaccelerate": 10,
+        "friction": 4,
+        "stopspeed": 100,
+        "maxspeed": 190,
+        "sprintspeed": 320,
+        "autobhop": 0,
+        "maxvelocity": 3500,
+        "hl2jump": 1
+      }
+    },
+    "orangebox": {
+      "name": "Orange Box (2007)",
+      "mv": {
+        "risefric": 0.25,
+        "jumpcap": 1,
+        "obduck": 1
+      }
+    }
+  }
+}

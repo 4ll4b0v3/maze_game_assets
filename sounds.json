@@ -1,0 +1,17 @@
+{
+  "steps": [
+    "sounds/step1.wav",
+    "sounds/step2.wav",
+    "sounds/step3.wav",
+    "sounds/step4.wav",
+    "sounds/step5.wav",
+    "sounds/step6.wav",
+    "sounds/step7.wav"
+  ],
+  "ui": {
+    "click": "sounds/ui_click.wav",
+    "over": "sounds/ui_over.wav",
+    "join": "sounds/ui_join.wav"
+  },
+  "flashlight": "sounds/flashlight.wav"
+}
