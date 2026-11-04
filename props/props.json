@@ -1,0 +1,193 @@
+{
+  "global": {
+    "useRange": 2.4,
+    "holdDist": 1.4,
+    "maxMass": 35,
+    "holdSpeed": 12,
+    "throwSpeed": 14,
+    "maxDebris": 60,
+    "debrisLife": 8
+  },
+  "spawn": {
+    "per100": 4,
+    "min": 3,
+    "max": 24,
+    "deadEnd": 0.6,
+    "props": {
+      "crate": 7
+    }
+  },
+  "props": {
+    "chunk09crate": {
+      "visual": {
+        "prim": "box",
+        "sx": 0.3,
+        "sy": 0.3,
+        "sz": 0.3,
+        "color": "#9a9a9a"
+      },
+      "mass": 2,
+      "model": "chunk09crate",
+      "pickup": false
+    },
+    "chunk07crate": {
+      "visual": {
+        "prim": "box",
+        "sx": 0.3,
+        "sy": 0.3,
+        "sz": 0.3,
+        "color": "#9a9a9a"
+      },
+      "mass": 2,
+      "model": "chunk07crate",
+      "pickup": false
+    },
+    "chunk06crate": {
+      "visual": {
+        "prim": "box",
+        "sx": 0.3,
+        "sy": 0.3,
+        "sz": 0.3,
+        "color": "#9a9a9a"
+      },
+      "mass": 2,
+      "model": "chunk06crate",
+      "pickup": false
+    },
+    "chunk05crate": {
+      "visual": {
+        "prim": "box",
+        "sx": 0.3,
+        "sy": 0.3,
+        "sz": 0.3,
+        "color": "#9a9a9a"
+      },
+      "mass": 2,
+      "model": "chunk05crate",
+      "pickup": false
+    },
+    "chunk04crate": {
+      "visual": {
+        "prim": "box",
+        "sx": 0.3,
+        "sy": 0.3,
+        "sz": 0.3,
+        "color": "#9a9a9a"
+      },
+      "mass": 2,
+      "model": "chunk04crate",
+      "pickup": false
+    },
+    "chunk03crate": {
+      "visual": {
+        "prim": "box",
+        "sx": 0.3,
+        "sy": 0.3,
+        "sz": 0.3,
+        "color": "#9a9a9a"
+      },
+      "mass": 2,
+      "model": "chunk03crate",
+      "pickup": false
+    },
+    "chunk02crate": {
+      "visual": {
+        "prim": "box",
+        "sx": 0.3,
+        "sy": 0.3,
+        "sz": 0.3,
+        "color": "#9a9a9a"
+      },
+      "mass": 2,
+      "model": "chunk02crate",
+      "pickup": false
+    },
+    "chunk01crate": {
+      "visual": {
+        "prim": "box",
+        "sx": 0.3,
+        "sy": 0.3,
+        "sz": 0.3,
+        "color": "#9a9a9a"
+      },
+      "mass": 2,
+      "model": "chunk01crate",
+      "pickup": false
+    },
+    "crate": {
+      "visual": {
+        "prim": "box",
+        "sx": 0.3,
+        "sy": 0.3,
+        "sz": 0.3,
+        "color": "#9a9a9a"
+      },
+      "mass": 10,
+      "vol": 1,
+      "bounce": 0.02,
+      "friction": 1,
+      "sounds": {
+        "impact": [
+          "wood_crate_impact_hard1",
+          "wood_crate_impact_hard2",
+          "wood_crate_impact_hard3",
+          "wood_crate_impact_hard4",
+          "wood_crate_impact_hard5",
+          "wood_box_impact_hard1",
+          "wood_box_impact_hard2",
+          "wood_box_impact_hard3",
+          "wood_box_impact_hard4",
+          "wood_box_impact_hard5",
+          "wood_box_impact_hard6"
+        ],
+        "break": [
+          "wood_crate_break3",
+          "wood_crate_break4",
+          "wood_crate_break5",
+          "wood_crate_break1",
+          "wood_crate_break2"
+        ]
+      },
+      "break": {
+        "by": [
+          "guard"
+        ],
+        "pieces": [
+          {
+            "prop": "chunk09crate",
+            "n": 1
+          },
+          {
+            "prop": "chunk07crate",
+            "n": 1
+          },
+          {
+            "prop": "chunk06crate",
+            "n": 1
+          },
+          {
+            "prop": "chunk05crate",
+            "n": 1
+          },
+          {
+            "prop": "chunk04crate",
+            "n": 1
+          },
+          {
+            "prop": "chunk03crate",
+            "n": 1
+          },
+          {
+            "prop": "chunk02crate",
+            "n": 1
+          },
+          {
+            "prop": "chunk01crate",
+            "n": 1
+          }
+        ]
+      },
+      "model": "crate"
+    }
+  }
+}
