@@ -14,7 +14,8 @@
     "max": 24,
     "deadEnd": 0.6,
     "props": {
-      "crate": 7
+      "crate": 7,
+      "barrel": 6
     }
   },
   "props": {
@@ -128,17 +129,10 @@
       "friction": 1,
       "sounds": {
         "impact": [
-          "wood_crate_impact_hard1",
-          "wood_crate_impact_hard2",
-          "wood_crate_impact_hard3",
           "wood_crate_impact_hard4",
-          "wood_crate_impact_hard5",
           "wood_box_impact_hard1",
           "wood_box_impact_hard2",
-          "wood_box_impact_hard3",
-          "wood_box_impact_hard4",
-          "wood_box_impact_hard5",
-          "wood_box_impact_hard6"
+          "wood_box_impact_hard3"
         ],
         "break": [
           "wood_crate_break3",
@@ -188,6 +182,27 @@
         ]
       },
       "model": "crate"
+    },
+    "barrel": {
+      "visual": {
+        "prim": "box",
+        "sx": 0.3,
+        "sy": 0.3,
+        "sz": 0.3,
+        "color": "#9a9a9a"
+      },
+      "mass": 8,
+      "bounce": 0,
+      "friction": 0.8,
+      "sounds": {
+        "impact": [
+          "plastic_barrel_impact_hard1",
+          "plastic_barrel_impact_hard2",
+          "plastic_barrel_impact_hard3",
+          "plastic_barrel_impact_hard4"
+        ]
+      },
+      "model": "barrel"
     }
   }
 }
